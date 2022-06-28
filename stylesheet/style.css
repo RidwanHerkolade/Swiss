@@ -786,7 +786,7 @@ input::placeholder {
      
      .header {
          max-width: 600px;
-          height: 600px;
+          height: 100vh;
      }
      nav {
           display: flex;
@@ -799,7 +799,7 @@ input::placeholder {
           top: 0;
           right: 0;
           width: 19rem;
-          height: 63vh;
+          height: 80vh;
           flex-direction: column;
           background:  var(--color-white);
           box-shadow: var(--box-shadow);
@@ -837,6 +837,7 @@ input::placeholder {
      .header .header__content {
           transform: translateY(70%);
           left: 8%;
+          margin-top: 11rem;
      }
      .header__con {
           position: relative;
