@@ -6,5 +6,9 @@ menu.addEventListener("click", function(){
      nav.style.display = "block"
 })
 close.addEventListener("click", function(){
-     nav.style.display = ""
+     nav.style.display = "none"
 })
+
+
+
+
